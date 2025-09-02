@@ -1,12 +1,50 @@
-# React + Vite
+# React 18 Features Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Демонстрация ключевых возможностей **React 18** с использованием:
+- `Suspense` для загрузки данных
+- `useTransition` и `useDeferredValue` для плавного UI
+- `ErrorBoundary` для обработки ошибок
+- Анимаций с помощью **Framer Motion**
+- Стилизации через **Tailwind CSS v4**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Демо
+[Live Preview](https://viatcheslav-malahov.github.io/React18Features/) _(добавь ссылку после деплоя на GitHub Pages или Vercel)_
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Скриншоты
+_(добавь скриншоты или GIF-анимацию UI)_
+
+---
+
+## 📦 Стек технологий
+- **React 18** + Vite
+- **TypeScript**
+- **Tailwind CSS v4** + @tailwindcss/vite
+- **Framer Motion**
+- **Lucide Icons**
+- Собственный Suspense Resource
+- Error Boundary
+
+---
+
+## 🧩 Фичи проекта
+- **Suspense для данных** — показ скелетонов, пока данные загружаются.
+- **useTransition** — ввод текста в поиске не тормозит список.
+- **useDeferredValue** — фильтрация большого списка без задержек.
+- **ErrorBoundary** — пользовательский UI при ошибках рендера.
+- **Framer Motion** — плавная анимация карточек при появлении.
+- **Tailwind CSS** — быстрая адаптивная стилизация.
+
+---
+
+## 📂 Структура проекта
+-src/
+-components/ # UI-компоненты
+-resources/ # Suspense-ресурсы и загрузка данных
+-App.tsx # Основная логика приложения
+-main.tsx # Точка входа
+-index.css # Подключение Tailwind
+-vite.config.ts # Конфигурация Vite
