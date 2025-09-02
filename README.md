@@ -48,3 +48,15 @@ _(добавь скриншоты или GIF-анимацию UI)_
 -main.tsx # Точка входа
 -index.css # Подключение Tailwind
 -vite.config.ts # Конфигурация Vite
+
+📄 Лицензия
+
+MIT License — свободное использование с указанием автора
+
+✨ Автор
+
+Вячеслав Малахов
+Fullstack / Frontend разработчик
+Telegram: @malahov_slava
+Email: viatcheslavmalahov@gmail.com
+GitHub: https://github.com/Viatcheslav-Malahov
